@@ -5,11 +5,30 @@ react-autobind-component
 
 Use this alternative to `React.Component` to automatically bind your methods.
 
-```shell
-npm install react-autobind-component --save
+## TL;DR
 
-# or, if you're awesome:
-yarn add react-autobind-component
+When using `react-autobind-component` instead of `React.Component`, the `onClick()` method gets automatically bound, so `this.foo` will be `bar`:
+
+```js
+import React from 'react';
+import Component from 'react-autobind-component'; // <--
+
+class Button extends Component {
+    foo = 'bar';
+
+    onClick() {
+        this.foo;
+        // -> 'bar'
+    }
+
+    render() {
+        return (
+            <button onClick={this.onClick}>
+                Click here
+            </button>
+        );
+    }
+}
 ```
 
 ## Use case

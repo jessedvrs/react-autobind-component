@@ -1,6 +1,6 @@
 {
   "name": "react-autobind-component",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Alternative to `React.Component` to automatically bind your methods.",
   "main": "lib/index.js",
   "repository": {
