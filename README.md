@@ -64,7 +64,7 @@ class Button extends Component {
 
     constructor(props) {
         super(props);
-        this.onClick = this.onclick.bind(this); // <- old solution
+        this.onClick = this.onClick.bind(this); // <- old solution
     }
 
     onClick() {
