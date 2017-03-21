@@ -1,7 +1,7 @@
 react-autobind-component
 ==========
 
-[![npm version](https://badge.fury.io/js/powercheck.svg)](https://badge.fury.io/js/powercheck)
+[![npm version](https://badge.fury.io/js/react-autobind-component.svg)](https://badge.fury.io/js/react-autobind-component)
 
 Use this alternative to `React.Component` to automatically bind your methods.
 
