@@ -11,9 +11,9 @@ When using `react-autobind-component` instead of `React.Component`, the `onClick
 
 ```js
 import React from 'react';
-import Component from 'react-autobind-component'; // <--
+import AutoBindComponent from 'react-autobind-component'; // <--
 
-class Button extends Component {
+class Button extends AutoBindComponent {
     foo = 'bar';
 
     onClick() {
@@ -85,9 +85,9 @@ class Button extends Component {
 *How you are going to solve this from now on:*
 ```js
 import React from 'react';
-import Component from 'react-autobind-component'; // <- new solution
+import AutoBindComponent from 'react-autobind-component'; // <- new solution
 
-class Button extends Component {
+class Button extends AutoBindComponent {
     foo = 'bar';
 
     onClick() {
